@@ -1,0 +1,30 @@
+{
+  "name": "website-cloner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clone-and-deploy": "ts-node src/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["website", "cloner", "scraper", "vercel", "deployment", "playwright", "automation"],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "description": "Minimal website cloner that clones and deploys websites",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/website-cloner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/website-cloner/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/website-cloner#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "playwright": "^1.53.2"
+  }
+}
